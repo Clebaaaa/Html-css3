@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando imagens</title>
+</head>
+<body>
+    <h1>Tamanho de imagens</h1>
+    <p>a imagem a baixo mudará de acordo com o tamanho da tela</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/imagem-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/imagem-m.png" type="image/png">
+        <img src="imagens/imagem-g.png" alt="imagemg">
+    </picture>
+    <h1>Apresentação de audios</h1>
+    <p>Ugovhb</p>
+    <audio preload="auto" autoplay controls>
+        <source src="midia/underground.mp3" type="audio/mpeg">
+        <p>caso seu navegador não suporte o tipo de audio <a href="midia/underground.mp3" download="underground.mp3" type="audio/mpeg"></a></p>
+    </audio>
+</body>
+</html>

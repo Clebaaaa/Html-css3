@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pa-be">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caixas Block level</title>
+    <style>
+
+        body {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+
+        header {
+            background-color: lightgray;
+            padding: 10px;
+            margin: 10px;
+            box-shadow: 5px 4px 7px 1px rgba(0, 0, 0, 0.301);
+            border-radius: 20px;
+        }
+
+        nav {
+            background-color: darkgrey;
+            padding-top: 3px ;
+            box-shadow: 5px 4px 7px 1px rgba(0, 0, 0, 0.301);
+            border-radius: 20px;
+        }
+
+        a {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            text-decoration: none;
+            padding-right:  20px;
+            margin: 3px;
+            color: black;
+        }
+
+        h1 {
+            color: black;
+            font-size: 27px;
+        }
+
+        .p1 {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        main {
+            background-color: lightgray;
+            padding: 10px;
+            margin: 10px;
+            box-shadow: 5px 4px 7px 1px rgba(0, 0, 0, 0.301);
+            border-radius: 20px;
+        }
+
+        aside {
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            background-color: darkgrey;
+            color: black;
+            text-align: center;
+            box-shadow: 5px 4px 7px 1px rgba(0, 0, 0, 0.301);
+            padding: 5px;
+            border-radius: 20px;
+        }
+
+        .p3 {
+            margin: 0px;
+        }
+
+        .o2 {
+            background-color: rgb(194, 194, 194);
+            padding: 10px;
+            border-radius: 20px;
+        }
+
+        a:hover {
+            color: blueviolet;
+            text-decoration: solid;
+        }
+
+        aside > a {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        footer {
+            font-family: 'Courier New', Courier, monospace;
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 9px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <header>
+            <section class="o1">
+                <h1>Pagina estilizada</h1> 
+            </section>
+            <nav>
+                <a href="#">link</a>
+                <a href="#">link</a>
+                <a href="#">link</a>
+                <a href="#">link</a>
+            </nav>
+        </header>
+        <main>
+            <section></section>
+            <section class="o2">
+                <article>
+                    <p class="p1">YouTube Facebook Instagram</p>
+                    <h2>Meus sites</h2>
+                    <p class="p2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum veritatis temporibus, laborum sapiente quisquam error accusamus perspiciatis, totam architecto harum sed quis reprehenderit cumque, dolorem expedita suscipit inventore facilis ipsum.</p>
+                    <aside>
+                        <a href=""><p class="p3">Produzido por cleba</p></a>
+                    </aside>
+                </article>
+            </section>
+        </main>
+        <footer>
+            <p>feito por cleba</p>
+        </footer>
+    </div>
+</body>
+</html>

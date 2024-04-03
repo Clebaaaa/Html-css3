@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Texto escondido</title>
+    <style>
+        body {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        div > p {
+            display: none;
+        }
+
+        div:hover {
+            color: brown;
+            width: 150px;
+        }
+
+        div:hover > p {
+            display: block;
+            color: azure;
+            background-color: brown;
+            width: 150px;
+        }
+    </style>
+</head>
+<body>
+    <h1>trabalhando com PseudoClasses</h1>
+    <p>passe o mouse no texto abaixo</p>
+    <div>
+        passe o mouse aqui
+        <p>TEXTO ESCONDIDO</p>
+    </div>
+    <p>fim do exemplo
+    </p>
+</body>
+</html>
